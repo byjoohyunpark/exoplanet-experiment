@@ -4,9 +4,28 @@
 
   .container {
       width: 100%;
-      height: 100%;
+      height: 80%;
       position: absolute;
       left: 0;
       top: 0;
+      /*        background-color: aquamarine;*/
   }
 
+  .zoom {
+      cursor: move;
+      fill: none;
+      pointer-events: all;
+  }
+
+  .indicator {
+      width: 100%;
+      height: 20%;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      /*        background-color: gray;        */
+  }
+
+  .selection {
+      fill: #000;
+  }
